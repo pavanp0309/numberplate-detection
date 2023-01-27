@@ -95,7 +95,7 @@ def main():
     
 if __name__ == '__main__':
   
-    main(code, module.__dict__)
+    main()
 
 # Downlaod Model from url.    
 @st.cache
