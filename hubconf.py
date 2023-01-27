@@ -155,10 +155,10 @@ if __name__ == '__main__':
     # Images
     imgs = [
         'data/images/zidane.jpg',  # filename
-        Path('data/images/zidane.jpg'),  # Path
-        'https://ultralytics.com/images/zidane.jpg',  # URI
-        cv2.imread('data/images/bus.jpg')[:, :, ::-1],  # OpenCV
-        Image.open('data/images/bus.jpg'),  # PIL
+        Path('data/images/https://Cars107.png'),  # Path
+        'https://github.com/kallasrikanth1999/number-plate-1/blob/main/data/images/Cars107.png',  # URI
+        cv2.imread('data/images/Cars115.png')[:, :, ::-1],  # OpenCV
+        Image.open('data/images/Cars115.png'),  # PIL
         np.zeros((320, 640, 3))]  # numpy
 
     # Inference
