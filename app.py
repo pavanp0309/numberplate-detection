@@ -89,7 +89,7 @@ def main():
 
     st.header('📦 Number Plate detection')
     st.subheader('👈🏽 Select options left-haned menu bar.')
-    st.sidebar.markdown("https://github.com/kallasrikanth1999/Number-plate-detection")
+    st.sidebar.markdown("https://github.com/kallasrikanth1999/number-plate-1")
     if option == "Image":    
         imageInput(deviceoption, datasrc)
     
